@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { HkmProBanner } from "./HkmPro";
@@ -108,6 +108,7 @@ export default function RootLayout({
       >
         {children}
         <HkmProBanner />
+              <script src="https://hikakinmaniacoin.hikamer.f5.si/ad.js" data-user-id="cmo8lk1kj0000aggyuhzgv5vk" async></script>
       </body>
     </html>
   );
