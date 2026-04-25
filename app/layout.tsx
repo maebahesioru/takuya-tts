@@ -1,7 +1,6 @@
 ﻿import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { HkmProBanner } from "./HkmPro";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -107,8 +106,6 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <HkmProBanner />
-              <script src="https://hikakinmaniacoin.hikamer.f5.si/ad.js" data-user-id="cmo8lk1kj0000aggyuhzgv5vk" async></script>
       </body>
     </html>
   );
