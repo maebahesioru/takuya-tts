@@ -22,6 +22,7 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://takuya-tts.hikamer.f5.si'),
   title: '拓也さん読み上げ | 無料テキスト音声変換ツール',
   description: '日本語テキストを音声に変換できる無料のオンラインツール。入力したテキストを自然な音声で読み上げ、MP3ファイルとしてダウンロード可能。会員登録不要で今すぐ使えます。',
   keywords: 'テキスト読み上げ,音声合成,TTS,日本語,無料,ダウンロード,MP3,音声変換,オンライン,会員登録不要',
@@ -35,14 +36,16 @@ export const metadata: Metadata = {
     title: '拓也さん読み上げ | 無料テキスト音声変換ツール',
     description: '日本語テキストを音声に変換できる無料のオンラインツール。入力したテキストを自然な音声で読み上げ、MP3ファイルとしてダウンロード可能。会員登録不要で今すぐ使えます。',
     type: 'website',
-    url: 'https://takuya-voice.vercel.app',
+    url: 'https://takuya-tts.hikamer.f5.si',
     siteName: '拓也さん読み上げ',
     locale: 'ja_JP',
+    images: ['/opengraph-image.png'],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: '拓也さん読み上げ | 無料TTS',
     description: '日本語テキストを音声に変換。会員登録不要、完全無料。',
+    images: ['/opengraph-image.png'],
   },
   robots: {
     index: true,
@@ -56,7 +59,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://takuya-voice.vercel.app',
+    canonical: 'https://takuya-tts.hikamer.f5.si',
   },
   verification: {
     google: 'your-google-verification-code',
