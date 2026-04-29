@@ -58,6 +58,7 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  icons: { icon: "/icon" },
   alternates: {
     canonical: 'https://takuya-tts.hikamer.f5.si',
   },
